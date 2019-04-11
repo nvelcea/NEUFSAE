@@ -12,7 +12,7 @@ void setup()
     Serial.begin(115200);
     pinMode(ledPin,OUTPUT);
 
-    while (CAN_OK != CAN.begin(CAN_500KBPS))
+    while (CAN_OK != CAN.begin(CAN_500KBPS, MCP_8MHz))
     {
         Serial.println("CAN BUS Init Failed");
         delay(100);
@@ -35,6 +35,7 @@ void loop()
         Serial.println("-----------------------------");
         Serial.print("Data from ID: 0x");
         Serial.println(canId, HEX);
+        delay(100); 
 
       /*  for(int i = 0; i<len; i++)
         {
@@ -55,4 +56,5 @@ void loop()
             }
       */  } 
         Serial.println();
+        delay(250); 
     }
