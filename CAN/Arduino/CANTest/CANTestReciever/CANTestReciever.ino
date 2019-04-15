@@ -2,17 +2,17 @@
 #include "mcp_can.h"
 
 const int spiCSPin = 10;
-const int ledPin = 2;
-boolean ledON = 1;
 
-MCP_CAN CAN(spiCSPin);
+
+//MAKE SURE TO FLIP PINS 11 AND 12
+
+MCP_CAN CAN(spiCSPin); //initialize CAN object
 
 void setup()
 {
     Serial.begin(115200);
-    pinMode(ledPin,OUTPUT);
 
-    while (CAN_OK != CAN.begin(CAN_500KBPS, MCP_8MHz))
+    while (CAN_OK != CAN.begin(CAN_500KBPS, MCP_8MHz)) //specify 8MHz crystal 
     {
         Serial.println("CAN BUS Init Failed");
         delay(100);
@@ -26,35 +26,23 @@ void loop()
     unsigned char len = 0;
     unsigned char buf[8];
 
-    if(CAN_MSGAVAIL == CAN.checkReceive())
+    if(CAN_MSGAVAIL == CAN.checkReceive()) //if a new message has been recieved. 
     {
-        CAN.readMsgBuf(&len, buf);
+        CAN.readMsgBuf(&len, buf); //enters message into program
 
-        unsigned long canId = CAN.getCanId();
+        unsigned long canId = CAN.getCanId(); //gets canID
 
+
+        //outputs message
         Serial.println("-----------------------------");
+        if(canId == 0x43){
+          Serial.println(true); 
+        }
         Serial.print("Data from ID: 0x");
-        Serial.println(canId, HEX);
-        delay(100); 
+        Serial.print(canId, HEX);
+        Serial.print("\t"); 
+        Serial.println(buf[0]); 
 
-      /*  for(int i = 0; i<len; i++)
-        {
-            Serial.print(buf[i]);
-            Serial.print("\t");
-            if(ledON && i==0)
-            {
-
-                digitalWrite(ledPin, buf[i]);
-                ledON = 0;
-                delay(500);
-            }
-            else if((!(ledON)) && i==4)
-            {
-
-                digitalWrite(ledPin, buf[i]);
-                ledON = 1;
-            }
-      */  } 
-        Serial.println();
-        delay(250); 
+       } 
+        delay(100);
     }
