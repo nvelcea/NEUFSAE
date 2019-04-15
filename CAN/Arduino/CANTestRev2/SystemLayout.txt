@@ -1,0 +1,25 @@
+0x01:
+	Potentiometer input
+	LCD output:
+		Pot value
+		Change in pot value (calculated by 0x03)
+		Acceleration (x, y, z) (calculated by 0x02)
+	OutputMessage:
+		0-potentiometerValue
+
+0x02:
+	Accelerometer input
+	OutputMessage:
+	0 - X axis Value
+	1 - Y axis Value
+	2 - Z axis Value
+		Note: Values will be shifted to 0 - 255, 127 = 0, 0 is max negative, 255 is max positive
+
+0x03:
+	Input:
+		potValue from 0x01
+	OutputMessage:
+		0-change in potValue
+
+
+
