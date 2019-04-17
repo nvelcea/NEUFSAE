@@ -11,9 +11,14 @@
 #include <SPI.h>
 
 
-const in canId = 0x03; 
+const int myCAN = 0x03; 
 const int spiCSPin = 10; //base CAN pin
 unsigned char stmp[8] = {0, 0, 0, 0, 0, 0, 0, 0};
+
+unsigned char len = 0;
+unsigned char buf[8];
+
+unsigned int potVal; 
 
 MCP_CAN CAN(spiCSPin);
 void setup()
@@ -31,5 +36,18 @@ void setup()
 
 void loop() {
   // put your main code here, to run repeatedly:
+  if(CAN_MSGAVAIL == CAN.checkReceive()){
+    CAN.readMsgBuf(&len, buf); 
+    unsigned long canId = CAN.getCanId(); 
 
+    if(canId == 0x01){
+      Serial.println((int)buf[0]); 
+      potVal = (int)buf[0]; 
+      stmp[0] = 255-potVal; 
+
+      CAN.sendMsgBuf(myCAN, 0, 8, stmp); 
+
+      delay(100); 
+    }
+  }
 }

@@ -14,9 +14,13 @@
 #include <SPI.h>
 #include <LiquidCrystal.h>
 
-const int canId = 0x01; 
+const int myCAN = 0x01; 
 const int spiCSPin = 10; //base CAN pin
 unsigned char stmp[8] = {0, 0, 0, 0, 0, 0, 0, 0};
+
+unsigned int pOut = 0; 
+
+unsigned long canId; 
 
 unsigned char len = 0;
 unsigned char buf[8];
@@ -50,20 +54,32 @@ void loop() {
   potVal = analogRead(potPin); 
   potVal = potVal /4; //makes it max of 256 --> one byte. 
   stmp[0] = potVal; 
-  CAN.sendMsgBuf(canId, 0, 8, stmp);
+ // Serial.println(stmp[0]); 
+  CAN.sendMsgBuf(myCAN, 0, 8, stmp);
 
   if(CAN_MSGAVAIL == CAN.checkReceive()) //if a new message has been recieved. 
     {
     CAN.readMsgBuf(&len, buf); //enters message into program
-    unsigned long canId = CAN.getCanId(); //gets canID
+    canId = CAN.getCanId(); //gets canID
 
     //if from 0x02
-    if(canId = 0x02){
+    if(canId == 0x02){
       decodeAccelValues(accel, buf); 
     }
     //if from 0x03
-
+    if(canId == 0x03){
+      pOut = buf[0]; 
+      Serial.print(potVal); 
+      Serial.print("\t"); 
+      Serial.println(pOut);  
+    }
        } 
+   //get potVal, trasmit message; 
+   potVal = analogRead(potPin); 
+   potVal = potVal /4; //makes it max of 256 --> one byte. 
+   stmp[0] = potVal; 
+  CAN.sendMsgBuf(myCAN, 0, 8, stmp);
+  
   //update LCD
   lcd.setCursor(0,0); 
   lcd.print("X:"); 
@@ -79,8 +95,15 @@ void loop() {
   lcd.print("Z:"); 
   if(accel[2]>=0) lcd.print("+"); 
   lcd.print(accel[2],2); 
+
+ 
+  lcd.setCursor(8,1); 
+  lcd.print("P:"); 
+  if(pOut < 100) lcd.print(0); 
+  if(pOut < 10) lcd.print(0); 
+  lcd.print(pOut); 
   
-  delay(100); //NOTE: a larger delay reduces the updates per second, and can therefore make the display
+  delay(1); //NOTE: a larger delay reduces the updates per second, and can therefore make the display
   //more readable
 }
 void decodeAccelValues(float out[3], unsigned char in[8]){

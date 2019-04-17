@@ -59,7 +59,7 @@ void loop() {
     updateAccels(accels, stmp);
     CAN.sendMsgBuf(canId, 0, 8, stmp);
   }
-  delay(10);
+  delay(50);
 }
 
 void updateAccels(float accels[3], unsigned char stmp[8]) {
