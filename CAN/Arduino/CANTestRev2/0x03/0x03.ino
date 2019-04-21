@@ -18,7 +18,9 @@ unsigned char stmp[8] = {0, 0, 0, 0, 0, 0, 0, 0};
 unsigned char len = 0;
 unsigned char buf[8];
 
-unsigned int potVal; 
+int potPin = A0; 
+int potVal = 0; 
+
 
 MCP_CAN CAN(spiCSPin);
 void setup()
@@ -36,18 +38,18 @@ void setup()
 
 void loop() {
   // put your main code here, to run repeatedly:
-  if(CAN_MSGAVAIL == CAN.checkReceive()){
-    CAN.readMsgBuf(&len, buf); 
-    unsigned long canId = CAN.getCanId(); 
+  
 
-    if(canId == 0x01){
-      Serial.println((int)buf[0]); 
-      potVal = (int)buf[0]; 
-      stmp[0] = 255-potVal; 
+      potVal = analogRead(potPin); 
+      potVal = potVal /4; //makes it max of 256 --> one byte. 
+       stmp[0] = potVal; 
+      
+      
+      stmp[0] = potVal; 
 
       CAN.sendMsgBuf(myCAN, 0, 8, stmp); 
 
-      delay(100); 
-    }
-  }
+      delay(10); //delay to avoid unnecessary traffic
+   
+ 
 }

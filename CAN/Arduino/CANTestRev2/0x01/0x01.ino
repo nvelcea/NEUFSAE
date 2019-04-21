@@ -25,8 +25,6 @@ unsigned long canId;
 unsigned char len = 0;
 unsigned char buf[8];
 
-int potVal = 0; 
-int potPin = A0; 
 
 float accel[3] = {0, 0, 0};
 
@@ -51,11 +49,6 @@ void setup()
 
 void loop() {
 //read analog input, add to CAN message
-  potVal = analogRead(potPin); 
-  potVal = potVal /4; //makes it max of 256 --> one byte. 
-  stmp[0] = potVal; 
- // Serial.println(stmp[0]); 
-  CAN.sendMsgBuf(myCAN, 0, 8, stmp);
 
   if(CAN_MSGAVAIL == CAN.checkReceive()) //if a new message has been recieved. 
     {
@@ -64,21 +57,16 @@ void loop() {
 
     //if from 0x02
     if(canId == 0x02){
-      decodeAccelValues(accel, buf); 
+      decodeAccelValues(accel, buf); //convert CAN data to pure acceleration data 
     }
     //if from 0x03
     if(canId == 0x03){
-      pOut = buf[0]; 
-      Serial.print(potVal); 
-      Serial.print("\t"); 
-      Serial.println(pOut);  
+      pOut = buf[0]; //update potentiometer data 
+      
     }
        } 
    //get potVal, trasmit message; 
-   potVal = analogRead(potPin); 
-   potVal = potVal /4; //makes it max of 256 --> one byte. 
-   stmp[0] = potVal; 
-  CAN.sendMsgBuf(myCAN, 0, 8, stmp);
+  
   
   //update LCD
   lcd.setCursor(0,0); 
@@ -106,7 +94,7 @@ void loop() {
   delay(1); //NOTE: a larger delay reduces the updates per second, and can therefore make the display
   //more readable
 }
-void decodeAccelValues(float out[3], unsigned char in[8]){
+void decodeAccelValues(float out[3], unsigned char in[8]){ //convert from can --> accel in Gs 
   if(in[0] == 0){
     out[0] = -1*(float)in[1]/64;
   }

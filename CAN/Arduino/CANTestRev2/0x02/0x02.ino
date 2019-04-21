@@ -49,7 +49,7 @@ void setup()
 void loop() {
   // put your main code here, to run repeatedly:
 
-  if (accel.available()) {
+  if (accel.available()) { //get acceleration value from accelerometer, send over can. 
     accel.read();
 
     accels[0] = accel.cx;
