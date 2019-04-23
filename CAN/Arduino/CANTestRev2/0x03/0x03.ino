@@ -50,6 +50,9 @@ void loop() {
       CAN.sendMsgBuf(myCAN, 0, 8, stmp); 
 
       delay(10); //delay to avoid unnecessary traffic
+
+
+      
    
  
 }
