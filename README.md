@@ -1,2 +1,2 @@
 # NEUFSAE
-Repo for any systems needed for NEU FSAE Electric's Car
+This is the GitHub repo for all code created for Northeastern's Formula SAE Electric Car club.
