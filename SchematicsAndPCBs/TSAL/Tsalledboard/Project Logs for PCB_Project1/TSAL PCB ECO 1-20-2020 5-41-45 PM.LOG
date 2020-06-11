@@ -1,0 +1,9 @@
+Added Component: Designator=F1(0477002.MXEP)
+Added Component: Designator=F2(0477002.MXEP)
+Added Pin To Net: NetName=HV+ Pin=F1-1
+Added Pin To Net: NetName=NetC1_2 Pin=F1-2
+Added Pin To Net: NetName=HV+ Pin=F2-1
+Added Pin To Net: NetName=NetC3_2 Pin=F2-2
+Added Member To Class: ClassName=TSAL Member=Component F1 0477002.MXEP, 2A, 400V
+Added Member To Class: ClassName=TSAL Member=Component F2 0477002.MXEP, 2A, 400V
+Added Room: Name=TSAL

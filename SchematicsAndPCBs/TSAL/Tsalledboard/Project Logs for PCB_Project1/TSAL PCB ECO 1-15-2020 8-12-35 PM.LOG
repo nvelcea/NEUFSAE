@@ -1,0 +1,10 @@
+Change Component Description : Designator=C4 Old Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V New Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V 
+Change Component Description : Designator=C5 Old Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V New Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V 
+Added Component: Designator=J1(0395021003)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/product-detail/en/molex/0395021003/WM7771-ND/1280622"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://www.molex.com/pdm_docs/sd/395021002_sd.pdf"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=HV+ Pin=J1-1
+Added Pin To Net: NetName=12V- Pin=J1-2
+Added Member To Class: ClassName=TSAL Member=Component J1 0395021003
+Added Room: Name=TSAL

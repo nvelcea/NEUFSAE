@@ -1,0 +1,97 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Emrax228HV_Motor-FSAE-TSV-shematic-rescue
+#
+DEF Emrax228HV_Motor-FSAE-TSV-shematic-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Emrax228HV_Motor-FSAE-TSV-shematic-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -100 -350 292 0 1 0 N
+X TS_AC1 ~ -450 -200 100 R 50 50 1 1 I
+X TS_AC2 ~ -450 -350 100 R 50 50 1 1 I
+X TS_AC3 ~ -450 -500 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# IMD-FSAE-TSV-shematic-rescue
+#
+DEF IMD-FSAE-TSV-shematic-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "IMD-FSAE-TSV-shematic-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 -50 400 -450 0 1 0 N
+X GND1 ~ -400 -100 100 R 50 50 1 1 I
+X GND2 ~ -400 -250 100 R 50 50 1 1 I
+X IMD_Status ~ -400 -400 100 R 50 50 1 1 O
+X TS_DC+ ~ 500 -100 100 L 50 50 1 1 I
+X TS_DC- ~ 500 -250 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RinehartPM100DX-FSAE-TSV-shematic-rescue
+#
+DEF RinehartPM100DX-FSAE-TSV-shematic-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "RinehartPM100DX-FSAE-TSV-shematic-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -450 -50 450 -550 0 1 0 N
+X TS_AC1 ~ 550 -100 100 L 50 50 1 1 O
+X TS_AC2 ~ 550 -300 100 L 50 50 1 1 O
+X TS_AC3 ~ 550 -500 100 L 50 50 1 1 O
+X TS_DC+ ~ -550 -100 100 R 50 50 1 1 I
+X TS_DC- ~ -550 -500 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TSAL-FSAE-TSV-shematic-rescue
+#
+DEF TSAL-FSAE-TSV-shematic-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "TSAL-FSAE-TSV-shematic-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -50 100 -350 0 1 0 N
+X DC_+ ~ -300 -100 100 R 50 50 1 1 I
+X DC_- ~ -300 -300 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TSAL_ISOLATION-FSAE-TSV-shematic-rescue
+#
+DEF TSAL_ISOLATION-FSAE-TSV-shematic-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "TSAL_ISOLATION-FSAE-TSV-shematic-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 300 -400 -300 -50 0 1 0 N
+X DC+ ~ 400 -100 100 L 50 50 1 1 O
+X DC- ~ 400 -350 100 L 50 50 1 1 O
+X TS_DC+ ~ -400 -100 100 R 50 50 1 1 I
+X TS_DC- ~ -400 -350 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TSMP-FSAE-TSV-shematic-rescue
+#
+DEF TSMP-FSAE-TSV-shematic-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "TSMP-FSAE-TSV-shematic-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 250 -50 -150 -300 0 1 0 N
+X TS_DC+ ~ 350 -100 100 L 50 50 1 1 I
+X TS_DC- ~ 350 -250 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

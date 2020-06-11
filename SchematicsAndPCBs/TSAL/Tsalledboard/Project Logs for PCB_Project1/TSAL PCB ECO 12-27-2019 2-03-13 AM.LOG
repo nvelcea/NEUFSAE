@@ -1,0 +1,9 @@
+Added Component: Designator=R3(Resistor 0603)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Supplier "; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1302V/P13.0KHCT-ND/198148"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "*https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC2_2 Pin=R3-1
+Added Pin To Net: NetName=HV- Pin=R3-2
+Added Member To Class: ClassName=TSAL Member=Component R3 13K
+Added Room: Name=TSAL

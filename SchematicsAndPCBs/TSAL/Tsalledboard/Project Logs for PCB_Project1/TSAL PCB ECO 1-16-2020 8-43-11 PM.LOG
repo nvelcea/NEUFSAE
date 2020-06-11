@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=12V- Pin=C1-1
+Removed Pin From Net: NetName=12V- Pin=C2-1
+Removed Pin From Net: NetName=12V- Pin=C3-1
+Removed Pin From Net: NetName=12V- Pin=J1-2
+Removed Pin From Net: NetName=12V- Pin=J1-2
+Removed Pin From Net: NetName=12V- Pin=J1-2
+Removed Pin From Net: NetName=12V- Pin=R2-2
+Removed Pin From Net: NetName=12V- Pin=U2-2
+Removed Pin From Net: NetName=12V- Pin=U3-3
+Added Component: Designator=C7(DE2B3SA331KN3AY02F)
+Added Component: Designator=C8(DE2B3SA331KN3AY02F)
+Added Pin To Net: NetName=12V- Pin=C7-1
+Added Pin To Net: NetName=HV+ Pin=C7-2
+Added Pin To Net: NetName=12V- Pin=C8-1
+Added Pin To Net: NetName=HV- Pin=C1-1
+Added Pin To Net: NetName=HV- Pin=C2-1
+Added Pin To Net: NetName=HV- Pin=C3-1
+Added Pin To Net: NetName=HV- Pin=C8-2
+Added Pin To Net: NetName=HV- Pin=J1-2
+Added Pin To Net: NetName=HV- Pin=J1-2
+Added Pin To Net: NetName=HV- Pin=J1-2
+Added Pin To Net: NetName=HV- Pin=R2-2
+Added Pin To Net: NetName=HV- Pin=U2-2
+Added Pin To Net: NetName=HV- Pin=U3-3
+Added Net: Name=HV-
+Added Member To Class: ClassName=TSAL Member=Component C7 400V, 330pF
+Added Member To Class: ClassName=TSAL Member=Component C8 400V, 330pF
+Added Room: Name=TSAL

@@ -1,0 +1,6 @@
+Added Component: Designator=Q1(MMBT2222A)
+Added Pin To Net: NetName=LED- Pin=Q1-1
+Added Pin To Net: NetName=LedOn Pin=Q1-2
+Added Pin To Net: NetName=12V- Pin=Q1-3
+Added Member To Class: ClassName=tsalledboard Member=Component Q1 MMBT2222A-7-F
+Added Room: Name=tsalledboard

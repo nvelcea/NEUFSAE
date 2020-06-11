@@ -1,0 +1,22 @@
+Added Component: Designator=C1(CKG57KX7T2W105K335JH)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_megacap_en.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/product-detail/en/tdk-corporation/CKG57KX7T2W105K335JH/445-10489-1-ND/3932416"; VariantName = "[No Variations]"
+Added Component: Designator=U1(TO-243AA(SOT-89-3))
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/datasheet/2/268/20005399A-909415.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/product-detail/en/microchip-technology/LR8N8-G/LR8N8-GCT-ND/4918747"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=HV+ Pin=C1-2
+Added Net: Name=HV+
+Added Pin To Net: NetName=HV- Pin=C1-1
+Added Net: Name=HV-
+Added Pin To Net: NetName=NetC2_2 Pin=U1-2
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetD1_2 Pin=U1-1
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetR2_2 Pin=U1-3
+Added Net: Name=NetR2_2
+Added Class: Name=TSAL
+Added Room: Name=TSAL

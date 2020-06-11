@@ -1,0 +1,90 @@
+Removed Pin From Net: NetName=NetJ5_2 Pin=R1-1
+Removed Pin From Net: NetName=NetJ5_1 Pin=SW1-1
+Removed Member From Class: ClassName=CANShield Member=J?
+Change Component Comment : Designator=R1 Old Comment=CRCW1206120RFKEA New Comment=120
+Added Component: Designator=J6(618026330923)
+Add component (AddParameter): Name = "Contact Resistance"; Value = "30mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/6180xx330923.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Female"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Angled"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "618026330923"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "618026330923"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "26"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "60VAC"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RESC1005X40X25NL05T05)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW040210K0FKED"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RESC1005X40X25NL05T05)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW040210K0FKED"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RESC1005X40X25NL05T05)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW040210K0FKED"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=J6-1
+Added Pin To Net: NetName=+5 Pin=J6-2
+Added Pin To Net: NetName=+5 Pin=J6-3
+Added Pin To Net: NetName=+5 Pin=J6-4
+Added Pin To Net: NetName=+5 Pin=J6-5
+Added Pin To Net: NetName=+5 Pin=J6-6
+Added Pin To Net: NetName=+5 Pin=J6-7
+Added Pin To Net: NetName=+5 Pin=J6-8
+Added Pin To Net: NetName=+5 Pin=J6-9
+Added Pin To Net: NetName=GND Pin=J6-21
+Added Pin To Net: NetName=GND Pin=J6-22
+Added Pin To Net: NetName=GND Pin=J6-23
+Added Pin To Net: NetName=GND Pin=J6-24
+Added Pin To Net: NetName=GND Pin=J6-25
+Added Pin To Net: NetName=GND Pin=J6-26
+Added Pin To Net: NetName=NetJ5_1 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=NetJ5_2 Pin=SW1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J6-18
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_2 Pin=J6-17
+Added Net: Name=NetJ1_2
+Added Pin To Net: NetName=NetJ1_3 Pin=J1-3
+Added Pin To Net: NetName=NetJ1_3 Pin=J6-16
+Added Net: Name=NetJ1_3
+Added Pin To Net: NetName=NetJ1_4 Pin=J1-4
+Added Pin To Net: NetName=NetJ1_4 Pin=J6-15
+Added Net: Name=NetJ1_4
+Added Pin To Net: NetName=NetJ1_5 Pin=J1-5
+Added Pin To Net: NetName=NetJ1_5 Pin=J6-14
+Added Net: Name=NetJ1_5
+Added Pin To Net: NetName=NetJ1_6 Pin=J1-6
+Added Pin To Net: NetName=NetJ1_6 Pin=J6-13
+Added Net: Name=NetJ1_6
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=J6-20
+Added Net: Name=NetJ3_1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=J6-19
+Added Net: Name=NetJ3_2
+Added Pin To Net: NetName=NetJ3_6 Pin=J3-6
+Added Pin To Net: NetName=NetJ3_6 Pin=J3-7
+Added Pin To Net: NetName=NetJ3_6 Pin=J3-8
+Added Pin To Net: NetName=NetJ3_6 Pin=J6-10
+Added Pin To Net: NetName=NetJ3_6 Pin=J6-11
+Added Pin To Net: NetName=NetJ3_6 Pin=J6-12
+Added Pin To Net: NetName=NetJ3_6 Pin=R4-2
+Added Pin To Net: NetName=NetJ3_6 Pin=R5-2
+Added Pin To Net: NetName=NetJ3_6 Pin=R6-2
+Added Net: Name=NetJ3_6
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=SW1-2
+Added Net: Name=NetR1_1
+Added Member To Class: ClassName=CANShield Member=Component J6 618026330923
+Added Member To Class: ClassName=CANShield Member=Component R4 CRCW040210K0FKED
+Added Member To Class: ClassName=CANShield Member=Component R5 CRCW040210K0FKED
+Added Member To Class: ClassName=CANShield Member=Component R6 CRCW040210K0FKED

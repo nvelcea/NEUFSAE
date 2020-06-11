@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetC2_2 Pin=R3-1
+Removed Pin From Net: NetName=NetR3_2 Pin=R3-2
+Removed Pin From Net: NetName=NetC9_2 Pin=U5-1
+Change Component Description : Designator=C4 Old Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V New Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V 
+Change Component Description : Designator=C5 Old Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V New Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V 
+Added Component: Designator=R3(Resistor 0603)
+Added Component: Designator=R10(Resistor 0603)
+Added Pin To Net: NetName=NetC2_2 Pin=R3-1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetC9_2 Pin=R10-1
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetR10_2 Pin=U5-1
+Added Net: Name=NetR10_2
+Added Member To Class: ClassName=TSAL Member=Component C9 25V 1uF
+Added Member To Class: ClassName=TSAL Member=Component R10 220
+Added Room: Name=TSAL

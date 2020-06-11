@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=HV+ Pin=C1-2
+Removed Pin From Net: NetName=HV+ Pin=D1-1
+Removed Pin From Net: NetName=HV+ Pin=J1-1
+Removed Pin From Net: NetName=HV+ Pin=J1-1
+Removed Pin From Net: NetName=HV+ Pin=J1-1
+Change Component Description : Designator=C4 Old Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V New Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V 
+Change Component Description : Designator=C5 Old Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V New Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V 
+Added Component: Designator=F1(0477002.MXEP)
+Added Component: Designator=F2(0477002.MXEP)
+Added Pin To Net: NetName=HV+ Pin=F2-2
+Change Net Name : Old Net Name=HV+ New Net Name=NetC3_2
+Added Pin To Net: NetName=HV+ Pin=F1-1
+Added Pin To Net: NetName=HV+ Pin=F2-1
+Added Pin To Net: NetName=HV+ Pin=J1-1
+Added Pin To Net: NetName=HV+ Pin=J1-1
+Added Pin To Net: NetName=HV+ Pin=J1-1
+Added Net: Name=HV+
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=D1-1
+Added Pin To Net: NetName=NetC1_2 Pin=F1-2
+Added Net: Name=NetC1_2
+Added Member To Class: ClassName=TSAL Member=Component F1 0477002.MXEP, 2A, 400V
+Added Member To Class: ClassName=TSAL Member=Component F2 0477002.MXEP, 2A, 400V
+Added Room: Name=TSAL

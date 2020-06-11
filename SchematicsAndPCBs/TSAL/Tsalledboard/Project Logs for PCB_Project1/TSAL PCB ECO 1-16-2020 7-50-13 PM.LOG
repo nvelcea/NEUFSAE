@@ -1,0 +1,7 @@
+Change Component Comment : Designator=R1 Old Comment=2.05K New Comment=6.04K
+Change Component Comment : Designator=D1 Old Comment=SMBJ5370B-TP New Comment=SMBJ5371B-TP
+Change component parameters: Designator = "R1" ("R1"); Footprint = "Resistor 0603"; UniqueID = "\IPLLFIIW" ("\IPLLFIIW")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF6041V/P6.04KHCT-ND/198452"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D1" ("D1"); Footprint = "214AA"; UniqueID = "\HHQOFHEE" ("\HHQOFHEE")
+Added Room: Name=TSAL
