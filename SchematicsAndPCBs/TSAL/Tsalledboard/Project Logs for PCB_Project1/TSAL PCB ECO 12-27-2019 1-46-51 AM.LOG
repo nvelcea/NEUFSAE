@@ -1,0 +1,5 @@
+Added Component: Designator=R2(Resistor 0603)
+Added Pin To Net: NetName=NetR1_2 Pin=R2-1
+Added Pin To Net: NetName=HV- Pin=R2-2
+Added Member To Class: ClassName=TSAL Member=Component R2 18.2K
+Added Room: Name=TSAL

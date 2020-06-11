@@ -1,0 +1,9 @@
+Added Component: Designator=D1(214AA)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/product-detail/en/SMBJ5370B-TP/SMBJ5370B-TPMSCT-ND/3165257?utm_campaign=buynow&WT.z_cid=ref_octopart_dkc_buynow&utm_medium=aggregator&curr=usd&site=us&utm_source=octopart"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.mccsemi.com/pdf/Products/SMBJ5338B-SMBJ5388B(SMB).pdf"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=HV+ Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Member To Class: ClassName=TSAL Member=Component D1 SMBJ5370B-TP
+Added Room: Name=TSAL

@@ -1,0 +1,8 @@
+Added Component: Designator=J1(0394250002)
+Added Pin To Net: NetName=HV+ Pin=J1-1
+Added Pin To Net: NetName=HV+ Pin=J1-1
+Added Pin To Net: NetName=HV+ Pin=J1-1
+Added Pin To Net: NetName=12V- Pin=J1-2
+Added Pin To Net: NetName=12V- Pin=J1-2
+Added Pin To Net: NetName=12V- Pin=J1-2
+Added Member To Class: ClassName=TSAL Member=Component J1 0394250002

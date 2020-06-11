@@ -1,0 +1,28 @@
+Added Component: Designator=C11(CAPACITOR 0805)
+Added Component: Designator=C12(CAP 0603)
+Added Component: Designator=C13(CAP 1206)
+Added Component: Designator=R11(Resistor 0603)
+Added Component: Designator=U1(NE555P)
+Added Pin To Net: NetName=12V Pin=C12-2
+Added Pin To Net: NetName=12V Pin=R11-1
+Added Pin To Net: NetName=12V Pin=U1-8
+Added Net: Name=12V
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Pin To Net: NetName=NetC11_2 Pin=U1-2
+Added Pin To Net: NetName=NetC11_2 Pin=U1-6
+Added Net: Name=NetC11_2
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2
+Added Pin To Net: NetName=NetC13_2 Pin=U1-5
+Added Net: Name=NetC13_2
+Added Pin To Net: NetName=NetR11_2 Pin=R11-2
+Added Pin To Net: NetName=NetR11_2 Pin=U1-7
+Added Net: Name=NetR11_2
+Added Pin To Net: NetName=opto Pin=U1-3
+Added Net: Name=opto
+Added Class: Name=tsalledboard
+Added Room: Name=tsalledboard

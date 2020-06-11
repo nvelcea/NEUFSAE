@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Charger-rescue)(type Legacy)(uri ${KIPRJMOD}/Charger-rescue.lib)(options "")(descr ""))
+)

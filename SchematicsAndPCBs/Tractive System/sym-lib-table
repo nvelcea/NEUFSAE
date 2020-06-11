@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name TSV-shematic-rescue)(type Legacy)(uri "${KIPRJMOD}/TSV shematic-rescue.lib")(options "")(descr ""))
+  (lib (name TSV-rescue)(type Legacy)(uri ${KIPRJMOD}/TSV-rescue.lib)(options "")(descr ""))
+)

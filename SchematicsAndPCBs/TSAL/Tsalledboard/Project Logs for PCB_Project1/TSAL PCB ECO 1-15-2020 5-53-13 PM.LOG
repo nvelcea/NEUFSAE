@@ -1,0 +1,17 @@
+Change Component Description : Designator=C4 Old Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V New Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V 
+Change Component Description : Designator=C5 Old Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V New Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V 
+Added Component: Designator=J2(0430450412)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/product-detail/en/molex/0430450412/WM1790-ND/252503"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=12V+ Pin=J2-3
+Added Pin To Net: NetName=12V- Pin=J2-4
+Added Pin To Net: NetName=555out Pin=J2-2
+Added Pin To Net: NetName=555out Pin=U2-4
+Added Net: Name=555out
+Added Pin To Net: NetName=LedON Pin=J2-1
+Added Pin To Net: NetName=LedON Pin=U2-3
+Added Net: Name=LedON
+Added Member To Class: ClassName=TSAL Member=Component J2 0430450412
+Added Room: Name=TSAL

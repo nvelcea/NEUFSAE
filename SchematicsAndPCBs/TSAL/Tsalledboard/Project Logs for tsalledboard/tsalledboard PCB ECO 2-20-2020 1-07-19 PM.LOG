@@ -1,0 +1,15 @@
+Added Component: Designator=J1(0430450412)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/product-detail/en/molex/0430450412/WM1790-ND/252503"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=opto Pin=J1-2
+Added Pin To Net: NetName=12V Pin=J1-3
+Change Net Name : Old Net Name=12V New Net Name=12V+
+Added Pin To Net: NetName=12V- Pin=J1-4
+Added Net: Name=12V-
+Added Net: Name=LED-
+Added Pin To Net: NetName=LedOn Pin=J1-1
+Added Net: Name=LedOn
+Added Member To Class: ClassName=tsalledboard Member=Component J1 0430450412
+Added Room: Name=tsalledboard

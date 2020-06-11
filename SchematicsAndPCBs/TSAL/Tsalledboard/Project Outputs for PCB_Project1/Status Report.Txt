@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [TSAL.PcbDoc]
+   Generated File[TSAL.TXT]
+   Generated File[TSAL.DRL]
+   Generated File[TSAL-BoardEdgeRout.TXT]
+   Generated File[TSAL.LDP]
+   Generated File[TSAL.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 6:27:04 PM On 1/20/2020

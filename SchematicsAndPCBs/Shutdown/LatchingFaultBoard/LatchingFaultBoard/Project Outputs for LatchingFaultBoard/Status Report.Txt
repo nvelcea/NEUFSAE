@@ -1,0 +1,32 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 12:06:57 PM On 5/22/2020
+
+Output: Gerber
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [LatchingFaultActiveHigh.PcbDoc]
+   Generated File[LatchingFaultActiveHigh.GTO]
+   Generated File[LatchingFaultActiveHigh.GTP]
+   Generated File[LatchingFaultActiveHigh.GTS]
+   Generated File[LatchingFaultActiveHigh.GTL]
+   Generated File[LatchingFaultActiveHigh.GBL]
+   Generated File[LatchingFaultActiveHigh.GBS]
+   Generated File[LatchingFaultActiveHigh.GM1]
+   Generated File[LatchingFaultActiveHigh.GM2]
+   Generated File[LatchingFaultActiveHigh.GM3]
+   Generated File[LatchingFaultActiveHigh.GM5]
+   Generated File[LatchingFaultActiveHigh.GM13]
+   Generated File[LatchingFaultActiveHigh.GM15]
+   Generated File[LatchingFaultActiveHigh.GM16]
+   Generated File[LatchingFaultActiveHigh.GKO]
+   Generated File[LatchingFaultActiveHigh.GPT]
+   Generated File[LatchingFaultActiveHigh.GPB]
+   Generated File[LatchingFaultActiveHigh.RUL]
+   Generated File[LatchingFaultActiveHigh.EXTREP]
+   Generated File[LatchingFaultActiveHigh.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 12:06:58 PM On 5/22/2020

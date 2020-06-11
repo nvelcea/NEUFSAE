@@ -1,0 +1,5 @@
+Added Component: Designator=U2(TCMT110)
+Added Pin To Net: NetName=HV- Pin=U2-1
+Added Pin To Net: NetName=HV- Pin=U2-2
+Added Member To Class: ClassName=TSAL Member=Component U2 TCMT1102
+Added Room: Name=TSAL

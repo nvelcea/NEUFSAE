@@ -1,0 +1,7 @@
+Added Component: Designator=U3(BPM1234SJ)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/datasheet/2/397/BPM1234SJ_1612EE-1272167.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.mouser.com/ProductDetail/Tamura/BPM1234SJ?qs=JtOM4tvdyp3RA%2FViNUppcg%3D%3D"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=TSAL Member=Component U3 BPM1234SJ
+Added Room: Name=TSAL

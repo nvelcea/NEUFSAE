@@ -1,0 +1,5 @@
+Added Component: Designator=R13(Resistor 0603)
+Added Pin To Net: NetName=NetR11_2 Pin=R13-1
+Added Pin To Net: NetName=NetC11_2 Pin=R13-2
+Added Member To Class: ClassName=tsalledboard Member=Component R13 ERJ-3EKF1502V
+Added Room: Name=tsalledboard

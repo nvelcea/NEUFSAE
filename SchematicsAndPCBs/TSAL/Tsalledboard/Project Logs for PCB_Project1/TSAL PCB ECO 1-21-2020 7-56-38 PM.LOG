@@ -1,0 +1,61 @@
+Change Component Description : Designator=C4 Old Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V New Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V 
+Change Component Description : Designator=C5 Old Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V New Description=Capacitors, Aluminum Electrolytic, Radial, Can, 1500µF, 25V 
+Added Component: Designator=C9(C0603C105K3RACTU)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/product-detail/en/kemet/C0603C105K3RACTU/399-7376-1-ND/3317410"; VariantName = "[No Variations]"
+Added Component: Designator=C10(CKG57KX7T2W105K335JH)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_megacap_en.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/product-detail/en/tdk-corporation/CKG57KX7T2W105K335JH/445-10489-1-ND/3932416"; VariantName = "[No Variations]"
+Added Component: Designator=D3(214AA)
+Added Component: Designator=R4(Resistor 0603)
+Added Component: Designator=R5(Resistor 0603)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF6041V/P6.04KHCT-ND/198452"; VariantName = "[No Variations]"
+Added Component: Designator=R7(Resistor 0603)
+Added Component: Designator=U4(TO-243AA(SOT-89-3))
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/datasheet/2/268/20005399A-909415.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/product-detail/en/microchip-technology/LR8N8-G/LR8N8-GCT-ND/4918747"; VariantName = "[No Variations]"
+Added Component: Designator=U5(SFH617A)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.vishay.com/docs/83740/sfh617a.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/SFH617A-2X017T/SFH617A-2X017TCT-ND/8556837"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=HV- Pin=C9-1
+Added Pin To Net: NetName=HV- Pin=C10-1
+Added Pin To Net: NetName=HV+ Pin=D3-1
+Added Pin To Net: NetName=HV- Pin=R4-2
+Added Pin To Net: NetName=12V- Pin=R7-2
+Added Pin To Net: NetName=HV- Pin=U5-2
+Added Pin To Net: NetName=LED- Pin=U5-4
+Added Net: Name=LED-
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Pin To Net: NetName=NetC9_2 Pin=R5-1
+Added Pin To Net: NetName=NetC9_2 Pin=U4-2
+Added Pin To Net: NetName=NetC9_2 Pin=U5-1
+Added Net: Name=NetC9_2
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Pin To Net: NetName=NetC10_2 Pin=D3-2
+Added Pin To Net: NetName=NetC10_2 Pin=U4-1
+Added Net: Name=NetC10_2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=R5-2
+Added Pin To Net: NetName=NetR4_1 Pin=U4-3
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=U5-3
+Added Net: Name=NetR7_1
+Added Member To Class: ClassName=TSAL Member=Component C9 25V 1uF
+Added Member To Class: ClassName=TSAL Member=Component C10 450V 1uF
+Added Member To Class: ClassName=TSAL Member=Component D3 SMBJ5363B
+Added Member To Class: ClassName=TSAL Member=Component R4 18.2K
+Added Member To Class: ClassName=TSAL Member=Component R5 6.04K
+Added Member To Class: ClassName=TSAL Member=Component R7 120 ohm
+Added Member To Class: ClassName=TSAL Member=Component U4 LR8N8-G
+Added Member To Class: ClassName=TSAL Member=Component U5 SFH617A
+Added Room: Name=TSAL
