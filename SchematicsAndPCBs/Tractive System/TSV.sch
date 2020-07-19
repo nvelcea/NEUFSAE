@@ -403,17 +403,6 @@ F 3 "~" H 7850 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J4
-U 1 1 5F1E8BB5
-P 7850 2550
-F 0 "J4" H 7742 2735 50  0000 C CNN
-F 1 "IMD/TSMP Connector" H 7742 2644 50  0000 C CNN
-F 2 "" H 7850 2550 50  0001 C CNN
-F 3 "~" H 7850 2550 50  0001 C CNN
-	1    7850 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x02_Female J2
 U 1 1 5F1E9418
 P 7850 5050
@@ -447,17 +436,6 @@ F 3 "~" H 7850 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5F1F04A4
-P 7850 2550
-F 0 "J?" H 7822 2524 50  0001 R CNN
-F 1 "Conn_01x02_Male" H 7822 2478 50  0001 R CNN
-F 2 "" H 7850 2550 50  0001 C CNN
-F 3 "~" H 7850 2550 50  0001 C CNN
-	1    7850 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND Chasis
 U 1 1 5F24DD62
 P 10300 1800
@@ -476,7 +454,7 @@ Connection ~ 6500 5300
 Wire Wire Line
 	6500 5300 6500 5700
 Wire Wire Line
-	7650 3600 6650 3600
+	7650 3600 7250 3600
 Connection ~ 6650 3600
 Wire Wire Line
 	6500 3700 6500 5300
@@ -517,19 +495,9 @@ Wire Wire Line
 Wire Wire Line
 	8200 2650 8050 2650
 Wire Wire Line
-	8100 2550 8850 2550
-Wire Wire Line
-	8850 2550 8850 1800
-Wire Wire Line
 	8850 1800 9000 1800
-Connection ~ 8100 2550
 Wire Wire Line
 	9000 1950 8950 1950
-Wire Wire Line
-	8950 1950 8950 2650
-Wire Wire Line
-	8950 2650 8200 2650
-Connection ~ 8200 2650
 Text Label 2450 5700 0    50   ~ 0
 1_2
 Text Label 900  5700 0    50   ~ 0
@@ -554,9 +522,9 @@ Text Label 5750 2600 0    50   ~ 0
 11_2
 Text Label 5350 5700 0    50   ~ 0
 12_2
-Text Label 8400 2550 0    50   ~ 0
+Text Label 8400 2750 0    50   ~ 0
 14_20
-Text Label 8400 2650 0    50   ~ 0
+Text Label 8400 2850 0    50   ~ 0
 15_20
 Text Label 8400 3600 0    50   ~ 0
 16_2
@@ -578,7 +546,7 @@ Text Label 8450 5150 0    50   ~ 0
 24_20
 Text Label 4100 1450 0    50   ~ 0
 25_20
-Text Label 5850 1450 0    50   ~ 0
+Text Label 5800 1450 0    50   ~ 0
 26_20
 Text Label 5650 4600 0    50   ~ 0
 13_2
@@ -616,7 +584,7 @@ Text Notes 9050 2350 0    50   ~ 0
 Current draw of IMD\nmust be confirmed
 Wire Wire Line
 	8850 3600 8050 3600
-Text Notes 8250 2800 0    39   ~ 0
+Text Notes 8250 3000 0    39   ~ 0
 Smaller AWG could be used\nbased on 2.03 A rating
 Text Notes 8300 4950 0    39   ~ 0
 Smaller AWG could be used\nbased on --- A rating
@@ -715,7 +683,76 @@ Wire Wire Line
 	6750 3350 6750 3700
 Connection ~ 6750 3700
 Wire Wire Line
-	6750 3700 7650 3700
+	6750 3700 7350 3700
 Wire Wire Line
 	6650 3600 6650 3350
+$Comp
+L Device:Fuse F2
+U 1 1 5F14BDC4
+P 7250 3200
+F 0 "F2" H 7191 3154 50  0000 R CNN
+F 1 "Fuse" H 7191 3245 50  0000 R CNN
+F 2 "" V 7180 3200 50  0001 C CNN
+F 3 "~" H 7250 3200 50  0001 C CNN
+	1    7250 3200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7250 3350 7250 3600
+Connection ~ 7250 3600
+Wire Wire Line
+	7250 3600 6650 3600
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 5F1518CD
+P 7850 2650
+F 0 "J4" H 7742 2935 50  0000 C CNN
+F 1 "IMD/TSMP Connector" H 7742 2844 50  0000 C CNN
+F 2 "" H 7850 2650 50  0001 C CNN
+F 3 "~" H 7850 2650 50  0001 C CNN
+	1    7850 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5F154419
+P 7850 2650
+F 0 "J?" H 7822 2578 50  0001 R CNN
+F 1 "Conn_01x04_Male" H 7822 2533 50  0001 R CNN
+F 2 "" H 7850 2650 50  0001 C CNN
+F 3 "~" H 7850 2650 50  0001 C CNN
+	1    7850 2650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3050 7250 2750
+Wire Wire Line
+	7250 2750 7650 2750
+Wire Wire Line
+	7650 2850 7350 2850
+Wire Wire Line
+	7350 2850 7350 3700
+Connection ~ 7350 3700
+Wire Wire Line
+	7350 3700 7650 3700
+Wire Wire Line
+	8850 1800 8850 2750
+Wire Wire Line
+	8950 1950 8950 2850
+Wire Wire Line
+	8050 2850 8950 2850
+Wire Wire Line
+	8050 2750 8850 2750
+Text Label 7000 2550 0    50   ~ 0
+29_20
+Text Label 7000 2650 0    50   ~ 0
+30_20
+Text Label 7350 2750 0    50   ~ 0
+31_20
+Text Label 7350 2850 0    50   ~ 0
+32_20
+Text Label 8100 2300 1    50   ~ 0
+33_20
+Text Label 8200 2300 1    50   ~ 0
+34_20
 $EndSCHEMATC
